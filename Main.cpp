@@ -6,9 +6,9 @@ int main() {
 	int a, b, c, d;
 
 	cout << "Input your number: " << endl;
-	cin >> a >> b >> c >> d;
+	cin >> a >> b;
 
-	int max = d;
+	int max = 0;
 
 	if (a > b && a > c && a > d)
 	{
@@ -18,12 +18,6 @@ int main() {
 	{
 		max = b;
 	}
-	else if (c > d)
-	{
-		max = c;
-	}
-
-
 
 	cout << "Max = " << max << endl;
 
