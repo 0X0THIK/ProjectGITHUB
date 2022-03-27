@@ -10,11 +10,11 @@ int main() {
 
 	int max = 0;
 
-	if (a > b && a > c && a > d)
+	if (a > b)
 	{
 		max = a;
 	}
-	else if (b > c && b > d)
+	else
 	{
 		max = b;
 	}
