@@ -23,6 +23,8 @@ int main() {
 		max = c;
 	}
 
+
+
 	cout << "Max = " << max << endl;
 
 	return 0;
